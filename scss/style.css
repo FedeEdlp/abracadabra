@@ -20,7 +20,7 @@ a {
   src: url(../font/roboto.ttf);
 }
 .encabezado {
-  background-image: url(../img/fondoheader7.png);
+  background-image: url(../../img/fondoheader7.png);
   padding-inline: 2rem;
   display: flex;
   align-items: center;
