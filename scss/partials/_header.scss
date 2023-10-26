@@ -1,0 +1,37 @@
+
+.encabezado {
+    background-image: url(../img/fondoheader7.png);
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 999999999;
+
+    .logo1{
+        height: 5rem;
+    }
+    .menu{
+        list-style-type: none;
+        display: flex; 
+        padding-left: 12rem;
+        flex-direction: row ; 
+        flex-wrap: wrap; 
+        gap: 3rem; 
+
+        .menu-item{
+        font-family: "roboto";
+        size-adjust: 1rem;
+        }
+        .menu-item.active{
+            text-decoration: underline double;
+            color:#F08575
+        }
+        
+        .menu-item:hover{
+        text-decoration: underline double;
+        }
+    }
+}
+    

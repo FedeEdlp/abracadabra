@@ -1,0 +1,66 @@
+/* -----------Responsive----------------- */
+
+@media screen and (max-width:840px)   {
+    
+    .logo1{
+        height: 4rem;
+    }
+    
+    .cuerpo{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .frente{
+        width: 90%;
+        flex: 1;
+    }
+    .text{
+        padding-inline: 0;
+        flex-wrap: wrap;
+    }
+    .tarjetas{
+
+    }
+    .fotosum{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        height: 250vh;
+    }
+    .img{
+        flex: 1;
+    }
+    .fotoamarilla{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        height: 250vh;
+    }
+    .fotosiesta{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        height: 250vh;
+    }
+
+    .foto.cui{
+        order: 2;
+    }
+
+    .text.cui{
+        order: 1;
+    }
+    .divbanner{
+        padding: 0;
+    }
+    .banner{
+        width: 100%;
+        padding: 0;
+    }
+
+    .tarjeta{
+        width: 50%;
+    }
+    
+    
+}
