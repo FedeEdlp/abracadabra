@@ -5,7 +5,7 @@
     order: 1;
 }
 
-.txttarj{
+.tarjeta__txt{
     font-family: "roboto";
     text-align: center;
     padding-inline: 1rem;
@@ -14,17 +14,24 @@
 .tit{
     text-align: center;
     font-family: "gabarito";
-    color: #F08575;
+    color: $maincolor;
     padding-top: 1rem;
 }
 
+.tarjeta__tit{
+    text-align: center;
+    font-family: "gabarito";
+    color: $maincolor;
+    padding-top: 0.5rem;
+}
+
 .tit.sec{
-    color: #FBBE5B;
+    color: $seccolor;
 }
 
 .sub{
-    color: #3B509F;
-    font-family: "roboto";
+    color: $tercolor;
+    font-family: "handle";
     padding-top: 0;
     text-align: center;
 }

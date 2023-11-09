@@ -1,8 +1,31 @@
 main{
     background-image: url(../img/fondoweb3.png);
+    flex-grow: 1;
     
     .cuerpo{
         display: flex;
         padding: 2rem;
     }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.tarjeta__cuerpo{
+    border-radius: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-block: 0.5rem;
+    border-radius: 1.5rem;
+    background-color: rgb(247, 247, 247);
+}
+
+.tarjeta__info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1.5rem;
+    background-color: rgb(160, 160, 160);
 }

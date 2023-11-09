@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./scss/style.css">
     <title>Abracadabra</title>
+    <meta name="description" content="Abracadabra, espacio maternal es un lugar creado para la educación y cuidado de los más pequeños. Especializado en la educación de bebes, niños y niñas de 45 días a 3 años. Dandole la importancia al cuidado, alimentación y diversión.">
     <link rel="icon" href="./img/logofavi.png"/>
 </head>
 <body>
@@ -13,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div>
                 <a href="../index.html">
-                    <img class="logo1" src="./img/logo3.png" alt="">
+                    <img class="logo1 animate__animated animate__tada animate__delay-1s" src="./img/logo3.png" alt="Logo Abracadabra">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,42 +34,49 @@
     </header>
     <main>
         <div>
-            <h1 class="tit">Abracadabra, espacio maternal </h1>
-            <h4 class="sub">"La magia de los primeros años"</h4>
+            <h1 class="tit animate__animated animate__bounceInLeft">Abracadabra, espacio maternal </h1>
+            <h2 class="sub animate__animated animate__bounceInRight">"La magia de los primeros años"</h2>
         </div>
         <section class="container">
             <div class="tarjetas">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="tarjetas">
-                        <img class="tarjeta" src="./img/espacios.png" alt="">
-                        <h4 class="tit">Conocenos!</h4>
-                        <p class="txttarj">Presentamos nuestros valores para que puedas conocernos.</p>
-                        <a href="./pages/nosotros.html"><button type="button" class="btn btn-outline-primary">Ver más</button></a>
+                        <img class="tarjeta" src="./img/espacios.png" alt="Nosotros">
+                        <div class="tarjeta__cuerpo">
+                            <h4 class="tarjeta__tit">Conocenos!</h4>
+                            <p class="tarjeta__txt">Presentamos nuestros valores para que puedas conocernos.</p>
+                            <a href="./pages/nosotros.html"><button type="button" class="btn btn-outline-primary">Ver más</button></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="tarjetas">
-                        <img class="tarjeta" src="./img/sobre.png" alt="">
-                        <h4 class="tit">Proyecto</h4>
-                        <p class="txttarj">Te acercamos el proyecto educativo de la institución</p>
-                        <a href="./pages/proyecto.html"><button type="button" class="btn btn-outline-primary">Ver más</button></a>
+                        <img class="tarjeta" src="./img/sobre.png" alt="Proyecto educativo">
+                        <div class="tarjeta__cuerpo">
+                            <h4 class="tarjeta__tit">Proyecto</h4>
+                            <p class="tarjeta__txt">Te acercamos el proyecto educativo de la institución</p>
+                            <a href="./pages/proyecto.html"><button type="button" class="btn btn-outline-primary">Ver más</button></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="tarjetas">
-                        <img class="tarjeta" src="./img/1200x1200 (1).png" alt="">
-                        <h4 class="tit">Mirá nuestros espacios!</h4>
-                        <p class="txttarj">Descubrí los espacios que creamos para los más peques</p>
-                        <a href="./pages/salas.html"><button type="button" class="btn btn-outline-primary">Ver más</button></a>
+                        <img class="tarjeta" src="./img/1200x1200 (1).png" alt="Salas">
+                        <div class="tarjeta__cuerpo">
+                            <h4 class="tarjeta__tit">Mirá nuestros espacios!</h4>
+                            <p class="tarjeta__txt">Descubrí los espacios que creamos para los más peques</p>
+                            <a href="./pages/salas.html"><button type="button" class="btn btn-outline-primary">Ver más</button></a>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
         </section>
+
         <section class="cuerpo">
-            <img class="frente" src="./img/frente.png" alt="Frente-edificio">
+            <img class="frente" data-aos="zoom-in-right" src="./img/frente.png" alt="Frente-edificio">
             <div class="texto">
                 <h2 class="tit">Nuestra historia</h2>
                 <p class="text">
@@ -74,7 +84,8 @@
                 <p class="text">
                     Somos un espacio maternal especializado en la educación de bebes, niños y niñas de 45 días a 3 años. Creemos que los primeros años de vida son fundamentales para el crecimiento y los posteriores aprendizajes, por lo cual, la estimulación, la enseñanza y el afecto serán las bases para cumplir nuestros objetivos.
                 </p>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nulla nesciunt voluptates pariatur vel temporibus! Debitis dolor eum dicta ut rerum architecto quos veritatis at aspernatur vitae, nostrum deleniti aperiam sequi beatae corporis suscipit molestiae vel quaerat dolorum, adipisci odio, eligendi natus. Quaerat sunt explicabo officia accusamus recusandae similique, placeat assumenda ducimus, cupiditate ipsa aspernatur suscipit voluptatibus ab a ullam deserunt! Laboriosam blanditiis iste tempore.
+                <p class="text">
+                        Cada niño y niña tiene sus propios tiempos, deseos, intereses, es por eso, que se busca realizar una educación integral abarcando lo cognitivo, social y psicológico, dentro de grupos reducidos con maestras especializadas. Una propuesta diferente pensada por y para los más pequeños.
                 </p>
 
             </div>
@@ -91,5 +102,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

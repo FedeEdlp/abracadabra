@@ -19,6 +19,10 @@ a {
   font-family: "roboto";
   src: url(../font/roboto.ttf);
 }
+@font-face {
+  font-family: "handle";
+  src: url(../../font/handle.ttf);
+}
 .encabezado {
   background-image: url(../../img/fondoheader7.png);
   padding-inline: 2rem;
@@ -43,6 +47,7 @@ a {
 .encabezado .menu .menu-item {
   font-family: "roboto";
   size-adjust: 1rem;
+  transition: 1s;
 }
 .encabezado .menu .menu-item.active {
   -webkit-text-decoration: underline double;
@@ -52,6 +57,7 @@ a {
 .encabezado .menu .menu-item:hover {
   -webkit-text-decoration: underline double;
           text-decoration: underline double;
+  transform: scale(1.1);
 }
 
 .text {
@@ -61,7 +67,7 @@ a {
   order: 1;
 }
 
-.txttarj {
+.tarjeta__txt {
   font-family: "roboto";
   text-align: center;
   padding-inline: 1rem;
@@ -74,23 +80,53 @@ a {
   padding-top: 1rem;
 }
 
+.tarjeta__tit {
+  text-align: center;
+  font-family: "gabarito";
+  color: #F08575;
+  padding-top: 0.5rem;
+}
+
 .tit.sec {
   color: #FBBE5B;
 }
 
 .sub {
   color: #3B509F;
-  font-family: "roboto";
+  font-family: "handle";
   padding-top: 0;
   text-align: center;
 }
 
 main {
   background-image: url(../img/fondoweb3.png);
+  flex-grow: 1;
 }
 main .cuerpo {
   display: flex;
   padding: 2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.tarjeta__cuerpo {
+  border-radius: 1.5rem;
+  padding-bottom: 0.5rem;
+  margin-block: 0.5rem;
+  border-radius: 1.5rem;
+  background-color: rgb(247, 247, 247);
+}
+
+.tarjeta__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: rgb(160, 160, 160);
 }
 
 .frente {
@@ -134,6 +170,11 @@ main .cuerpo {
   border-radius: 1rem;
   background-size: cover;
   background-position: center center;
+}
+
+.img:hover {
+  transform: scale(1.08);
+  transition: 1s;
 }
 
 .fotoamarilla {
@@ -199,18 +240,23 @@ main .cuerpo {
 .tarjetas {
   justify-content: center;
   text-align: center;
-  padding-block: 2rem;
+  padding-block: 1rem;
 }
 
 .tarjeta {
   width: 70%;
   border-radius: 10rem;
   justify-content: center;
+  transition: 1s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.15);
 }
 
 .foto {
   height: 15rem;
-  border: solid 4px pink;
+  border: solid 4px #F08575;
   border-radius: 1rem;
 }
 
@@ -265,6 +311,9 @@ main .cuerpo {
   .logo1 {
     height: 4rem;
   }
+  main {
+    background-size: contain;
+  }
   .cuerpo {
     flex-direction: column;
     flex-wrap: wrap;
@@ -313,5 +362,9 @@ main .cuerpo {
   }
   .tarjeta {
     width: 50%;
+  }
+  .encabezado {
+    background-image: url(../../img/fondoheadercel.png);
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */

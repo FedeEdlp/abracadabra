@@ -5,6 +5,10 @@
     .logo1{
         height: 4rem;
     }
+
+    main{
+        background-size: contain;
+    }
     
     .cuerpo{
         flex-direction: column;
@@ -62,5 +66,9 @@
         width: 50%;
     }
     
+    .encabezado {
+        background-image: url(../../img/fondoheadercel.png);
+        justify-content: center;
+    }
     
 }

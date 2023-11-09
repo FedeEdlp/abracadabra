@@ -23,14 +23,16 @@
         .menu-item{
         font-family: "roboto";
         size-adjust: 1rem;
+        transition: 1s;
         }
         .menu-item.active{
             text-decoration: underline double;
-            color:#F08575
+            color: $maincolor;
         }
         
         .menu-item:hover{
         text-decoration: underline double;
+        transform: scale(1.1);
         }
     }
 }

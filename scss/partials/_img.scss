@@ -43,7 +43,10 @@
     background-size: cover;
     background-position: center center;
 }
-
+.img:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
 
 
 .fotoamarilla{
@@ -115,19 +118,23 @@
 .tarjetas{
     justify-content: center;
     text-align: center;
-    padding-block: 2rem;
+    padding-block: 1rem;
 }
 .tarjeta{
     width: 70%;
-    // border: solid 4px #D1B5E5;
     border-radius: 10rem;
     justify-content: center;
+    transition: 1s;
+}
+
+.tarjeta:hover{
+    transform: scale(1.15);
 }
 
 
 .foto{
     height: 15rem;
-    border: solid 4px pink;
+    border: solid 4px $maincolor;
     border-radius: 1rem;
 }
 
