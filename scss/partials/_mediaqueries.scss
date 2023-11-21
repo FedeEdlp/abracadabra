@@ -47,6 +47,13 @@
         height: 250vh;
     }
 
+    .fotosverde{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        height: 250vh;
+    }
+
     .foto.cui{
         order: 2;
     }

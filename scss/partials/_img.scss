@@ -80,10 +80,40 @@
     }
     .img9{
         grid-area: img9;
-        background-image: url(../img/sala-amarilla/21.png);
+        background-image: url(../../img/sala-amarilla/21.png);
     }
 }
 
+.fotosverde{
+    display: grid;
+    margin-block: 1rem;
+    width: 100%;
+    height: 70vh;
+    padding-inline: 4rem;
+    grid-template-columns: 1.5fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "img14 img17 img15"
+    "img14 img17 img16";
+    gap: 0.5rem;
+
+    .img14{
+        grid-area: img14;
+        background-image: url(../../img/sala-verde/verde1.png);
+    }
+    .img15{
+        grid-area: img15;
+        background-image: url(../../img/sala-verde/verde2.jpg);
+    }
+    .img16{
+        grid-area: img16;
+        background-image: url(../../img/sala-verde/verde3.png);
+    }
+    .img17{
+        grid-area: img17;
+        background-image: url(../../img/sala-verde/verde4.png);
+    }
+}
 
 .fotosiesta{
     margin-block: 1rem;
