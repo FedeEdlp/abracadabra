@@ -24,7 +24,7 @@ a {
   src: url(../../font/handle.ttf);
 }
 .encabezado {
-  background-image: url(../../img/fondoheader7.png);
+  background-image: url(../img/fondoheader7.png);
   padding-inline: 2rem;
   display: flex;
   align-items: center;
@@ -208,7 +208,7 @@ body {
 }
 .fotoamarilla .img9 {
   grid-area: img9;
-  background-image: url(../../img/sala-amarilla/21.png);
+  background-image: url(../img/sala-amarilla/21.png);
 }
 
 .fotosverde {
@@ -224,19 +224,19 @@ body {
 }
 .fotosverde .img14 {
   grid-area: img14;
-  background-image: url(../../img/sala-verde/verde1.png);
+  background-image: url(../img/sala-verde/verde1.png);
 }
 .fotosverde .img15 {
   grid-area: img15;
-  background-image: url(../../img/sala-verde/verde2.jpg);
+  background-image: url(../img/sala-verde/verde2.jpg);
 }
 .fotosverde .img16 {
   grid-area: img16;
-  background-image: url(../../img/sala-verde/verde3.png);
+  background-image: url(../img/sala-verde/verde3.png);
 }
 .fotosverde .img17 {
   grid-area: img17;
-  background-image: url(../../img/sala-verde/verde4.png);
+  background-image: url(../img/sala-verde/verde4.png);
 }
 
 .fotosiesta {
