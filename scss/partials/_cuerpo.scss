@@ -1,6 +1,7 @@
 main{
     background-image: url(../img/fondoweb3.png);
     flex-grow: 1;
+    background-size: contain;
     
     .cuerpo{
         display: flex;
