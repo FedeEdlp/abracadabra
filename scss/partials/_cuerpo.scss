@@ -1,12 +1,15 @@
-main{
-    background-image: url(../img/fondoweb3.png);
-    flex-grow: 1;
-    background-size: contain;
-    
-    .cuerpo{
-        display: flex;
-        padding: 2rem;
-    }
+main {
+  background-image: url(../img/fondoweb3.png);
+  background-size: cover;       // ajusta y recorta si hace falta
+  background-position: center;  // centra la imagen
+  background-repeat: no-repeat; // no repetir
+  min-height: 100vh;            // alto mínimo = alto de la pantalla
+  flex-grow: 1;
+
+  .cuerpo {
+    display: flex;
+    padding: 2rem;
+  }
 }
 
 body{
